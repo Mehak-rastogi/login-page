@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: relative;
+}
+.box1{
+    height: 180px;
+    width: 180px;
+    background-image:linear-gradient(to bottom right, rgb(29, 29, 146), rgb(29, 112, 221));
+    margin-bottom: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left:370px;
+    top:5px;
+}
+.box2{
+    height: 180px;
+    width: 180px;
+    background-image: linear-gradient(to bottom right, rgb(247, 86, 11), rgb(247, 140, 19));
+    border-radius: 50%;
+    position: absolute;
+    right:390px;
+    bottom: 20px;
+}
+ form{
+    height: 400px;
+    width: 400px;
+    background-color: rgba(255,255,255,0.13);
+    position: absolute;
+       transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 50px 35px;
+   
+ }
+ form h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color:white;
+ }
+
+ form label{
+    display:block;
+    margin-top: 20px;
+    margin-left: 20px;
+    color:white
+ }
+ 
+ input{
+    display: block;
+    margin-top: 5px;
+    margin-left: 20px;
+    height: 35px;
+    width: 350px;
+    border-radius: 5px;
+    padding-left:5px ;
+    border: none;
+    background-color: rgba(255,255,255,0.13);
+
+   }
+   input{
+    outline:none;
+    color:white;
+   }
+
+.login{
+    display: block;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding:12px;
+    width:350px;
+    border-radius: 5px;
+    border:none;
+    font-weight:900;
+}
+.btn{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+     text-align: center;
+}
+.btn button{
+  padding: 10px;
+  width: 150px;
+  border-radius: 5px;
+    border:none;
+    background-color: rgba(253, 251, 251, 0.199);
+    color:white;
+}
+.btn i{
+    font-size: 12px;
+    padding-right: 4px;
+}
+@media only screen and (max-width:420px){
+    .container{
+        height: 100vh;
+        width: 100vw
+    }
+    .box1{
+        height: 120px;
+        width: 120px;
+        background-image:linear-gradient(to bottom right, rgb(29, 29, 146), rgb(29, 112, 221));
+        margin-bottom: 10px;
+        border-radius: 50%;
+        position: absolute;
+        left:5px;
+        top:25px;
+    }
+    .box2{
+        height: 120px;
+        width: 120px;
+        background-image: linear-gradient(to bottom right, rgb(247, 86, 11), rgb(247, 140, 19));
+        border-radius: 50%;
+        position: absolute;
+        right:10px;
+        bottom: 24px;
+    }
+    form{
+        width: 250px;
+        height: 300px;
+            background-color: rgba(255,255,255,0.13);
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left: 50%;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255,255,255,0.1);
+            box-shadow: 0 0 40px rgba(8,7,16,0.6);
+            /* padding: 50px 35px; */
+            padding-top: 20px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-bottom:6rem;
+           
+         
+}
+
+form h2{
+    font-size: 27px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    color:white;
+ }
+ form label{
+    display:block;
+    margin-top: 10px;
+    margin-left: 3px;
+    color:white
+ }
+ input{
+    display: block;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 35px;
+    width: 240px;
+    border-radius: 5px;
+    padding-left:5px ;
+    border: none;
+    background-color: rgba(255,255,255,0.13);
+
+   }
+   .login{
+    display: block;
+    margin-left: 5px;
+    margin-top: 40px;
+    padding:12px;
+    width:240px;
+    border-radius: 5px;
+    border:none;
+    font-weight:900;
+}
+.btn button{
+    padding: 10px;
+    width: 110px;
+    border-radius: 5px;
+      border:none;
+      background-color: rgba(253, 251, 251, 0.199);
+      color:white;
+  }
+  .btn i{
+      font-size: 12px;
+      padding-right: 4px;
+  }
+}
